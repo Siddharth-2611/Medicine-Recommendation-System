@@ -11,16 +11,16 @@ A web-based application that recommends medicines, diets, and workouts based on 
 
 ## Project Structure
 ```
-main.py                        # Main application file (Flask app)
-Medicine Recommendation System.ipynb  # Jupyter notebook for data analysis/modeling
-requirements.txt               # Python dependencies
-svc.pkl                        # Trained ML model (pickle file)
-vercel.json                    # Deployment configuration
+main.py                                 # Main application file (Flask app)
+Medicine Recommendation System.ipynb    # Jupyter notebook for data analysis/modeling
+requirements.txt                        # Python dependencies
+svc.pkl                                 # Trained ML model (pickle file)
 
-datasets/                      # Data files for symptoms, medications, etc.
-models/                        # (Optional) Model-related files
-static/                        # Static assets (images, CSS, JS)
-templates/                     # HTML templates for web pages
+
+datasets/                              # Data files for symptoms, medications, etc.
+models/                                # (Optional) Model-related files
+static/                                # Static assets (images, CSS, JS)
+templates/                             # HTML templates for web pages
 ```
 
 ## Setup Instructions
@@ -50,10 +50,10 @@ templates/                     # HTML templates for web pages
 ### Additional Screenshots
 <!-- Add more screenshots as needed -->
 
+
 ## Video Demo
 Watch the video demonstration of the working application:
 
-![Video Demo](static/video_demo.gif)
 <!-- Or embed a YouTube link if available -->
 <!-- [Watch on YouTube](https://youtu.be/your-demo-link) -->
 
