@@ -49,11 +49,14 @@ templates/                             # HTML templates for web pages
 
 ### Additional Screenshots
 <!-- Add more screenshots as needed -->
-
+# Disease
+![](static/disease.jpg)
+# Medication
+![](static/medication.jpg)
 
 ## Video Demo
 Watch the video demonstration of the working application:
-
+![](static/demo.gif)
 <!-- Or embed a YouTube link if available -->
 <!-- [Watch on YouTube](https://youtu.be/your-demo-link) -->
 
@@ -61,4 +64,4 @@ Watch the video demonstration of the working application:
 This project is for educational purposes.
 
 ---
-**Developed by:** [Your Name]
+**Developed by:** Siddharth Goutam
