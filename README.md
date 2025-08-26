@@ -45,7 +45,7 @@ templates/                     # HTML templates for web pages
 
 ## Screenshots
 ### Home Page
-![Home Page](static/img.jpg)
+![Home Page](static/Homepage.png)
 
 ### Additional Screenshots
 <!-- Add more screenshots as needed -->
