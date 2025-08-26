@@ -1,16 +1,64 @@
-# Personalized-Medical-Recommendation-System-with-Machine-Learning
-Welcome to our cutting-edge Personalized Medical Recommendation System, a powerful platform designed to assist users in understanding and managing their health. Leveraging the capabilities of machine learning, our system analyzes user-input symptoms to predict potential diseases accurately. Here's what sets our system apart:
+# Medicine Recommendation System
 
-User-Friendly Interface: Our intuitive interface allows users to input their symptoms effortlessly, creating a seamless user experience.
+A web-based application that recommends medicines, diets, and workouts based on user symptoms. The system leverages machine learning to predict diseases and suggest appropriate treatments, precautions, and lifestyle modifications.
 
-Advanced Machine Learning Models: We've integrated state-of-the-art machine learning models that accurately predict diseases based on input symptoms, ensuring reliable and precise results.
+## Features
+- Disease prediction based on user-input symptoms
+- Medicine, diet, and workout recommendations
+- Precautionary advice for predicted diseases
+- User-friendly web interface
+- Blog, About, Contact, and Developer information pages
 
-Tailored Recommendations: Receive personalized recommendations for the top 5 medicines, prescription details, and even workout routines based on the predicted disease.
+## Project Structure
+```
+main.py                        # Main application file (Flask app)
+Medicine Recommendation System.ipynb  # Jupyter notebook for data analysis/modeling
+requirements.txt               # Python dependencies
+svc.pkl                        # Trained ML model (pickle file)
+vercel.json                    # Deployment configuration
 
-Flask App Integration: The entire system is powered by a Flask web application, making it easily accessible to users. Experience the convenience of accessing healthcare recommendations from anywhere.
+datasets/                      # Data files for symptoms, medications, etc.
+models/                        # (Optional) Model-related files
+static/                        # Static assets (images, CSS, JS)
+templates/                     # HTML templates for web pages
+```
 
-Privacy and Security: We prioritize user privacy and data security. Your health information is handled with the utmost confidentiality, adhering to the highest industry standards.
+## Setup Instructions
+1. **Clone the repository**
+2. **Install dependencies**
+   ```
+   pip install -r requirements.txt
+   ```
+3. **Run the application**
+   ```
+   python main.py
+   ```
+4. **Access the app**
+   Open your browser and go to `http://localhost:5000`
 
-Continuous Improvement: Our system is designed for continuous improvement. As we gather more data, the machine learning models evolve, providing increasingly accurate and relevant recommendations.
+## Data Sources
+- `datasets/` contains CSV files for symptoms, medications, diets, precautions, and more.
 
-Take charge of your health with our Personalized Medical Recommendation System. Your well-being is our priority, and we're dedicated to providing you with the tools and insights you need for a healthier, happier life.
+## Model
+- The ML model (`svc.pkl`) is trained to predict diseases based on symptoms using the data in `datasets/Training.csv`.
+
+
+## Screenshots
+### Home Page
+![Home Page](static/img.jpg)
+
+### Additional Screenshots
+<!-- Add more screenshots as needed -->
+
+## Video Demo
+Watch the video demonstration of the working application:
+
+![Video Demo](static/video_demo.gif)
+<!-- Or embed a YouTube link if available -->
+<!-- [Watch on YouTube](https://youtu.be/your-demo-link) -->
+
+## License
+This project is for educational purposes.
+
+---
+**Developed by:** [Your Name]
